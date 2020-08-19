@@ -1,0 +1,120 @@
+/* Mobile first queries */
+/* applies to ALL widths */
+body {
+	font-family: "Josefin Sans";
+	background: url("../images/sjsBoxes.jpg") top center;
+	background-size: 1200px;
+	max-width: 2000px;
+	/* background-attachment: fixed;
+	*/
+}
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Josefin Sans";
+}
+.header {
+	min-height: 6em;
+	background-color: #fff;
+	background-image: linear-gradient(to right, white, white, white, #fbec6b, #d9894e, #8dbda7, #74bac6, #d5b3d4, #b35480);
+}
+.hero-image {
+	background-image: url("../images/boxes-hero.jpg");
+	/* The image used */
+	background-color: #cccccc;
+	/* Used if the image is unavailable */
+	height: 400px;
+	/* You must set a specified height */
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+#hero-tagline {
+	margin: auto;
+	width: 24%;
+	padding: 1em;
+	font-size: 1.5vw;
+	background-color: rgba(141,189,167,0.2);
+	color: #fbec6b;
+	text-align: center;
+}
+.learn-more {
+	width:20%;
+	margin: auto;
+	font-size: 1.5vw;
+}
+.search {
+	float: right;
+	padding: 1em;
+}
+#search-box {
+	border-radius: 5px;
+}
+.main-nav {
+	clear: right;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #777777;
+}
+.tall-box {
+	min-height: 10em;
+	background: rgba(116, 186, 198, 0.8);
+	text-align: center;
+	color: #b35480;
+}
+.orange-box {
+	background-color: rgba(217, 137, 78, 0.5);
+}
+.medium-box {
+	min-height: 7em;
+	background: rgba(116, 186, 198, 0.8);
+	text-align: center;
+}
+.grey-box {
+	background-color: rgba(222, 222, 222, 0.8);
+	padding: 4em;
+}
+.grey-box-sm {
+	background-color: rgba(222, 222, 222, 0.8);
+}
+.footer {
+	min-height: 4em;
+	background-color: #fff;
+	background-image: linear-gradient(to right, white, white, white, #fbec6b, #d9894e, #8dbda7, #74bac6, #d5b3d4, #b35480);
+	text-align: center;
+	padding: 2em;
+}
+a.sb-link:visited, a.sb-link:link {
+	text-decoration: none;
+}
+a.sb-link:hover, a.sb-link:active {
+	border-bottom: 2px dotted #b35480;
+	color: #b35480;
+}
+.sb-hover {
+	opacity: 0.5;
+}
+.sb-hover:hover {
+	opacity: 1;
+}
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
+@media (min-width: 400px) {
+}
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+}
+/* Larger than tablet */
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+}
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+}
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+@media (min-width: 1200px) {
+}
